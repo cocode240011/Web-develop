@@ -141,7 +141,7 @@ var todoAll = function() {
         contentType: 'application/json',
         callback: function(response) {
             // 不考虑错误情况（断网、服务器返回错误等等）
-            log('响应', response)
+            // log('响应', response)
             var todos = JSON.parse(response)
             window.todos = todos
             // 可以增加一个筛选获取的后端数据的函数 selectorData(todos)
@@ -166,7 +166,7 @@ var todoNew = function(form) {
         data: data,
         callback: function(response) {
             // 不考虑错误情况（断网、服务器返回错误等等）
-            log('响应', response)
+            // log('响应', response)
             var res = JSON.parse(response)
             var todo = templatetodo(res)
             insertTodo(todo)
@@ -187,7 +187,7 @@ var todoUpdate = function(form, span) {
         callback: function(response) {
             // 不考虑错误情况（断网、服务器返回错误等等）
             var res = JSON.parse(response)
-            log('todo 完成状态', res.done)
+            // log('todo 完成状态', res.done)
             span.classList.toggle('glyphicon')
             span.classList.toggle('glyphicon-ok')
         }
@@ -206,7 +206,7 @@ var todoDelete = function(form, todo) {
         callback: function(response) {
             // 不考虑错误情况（断网、服务器返回错误等等）
             var res = JSON.parse(response)
-            log('todo 删除 ', res.success)
+            // log('todo 删除 ', res.success)
             todo.remove()
         }
     }
