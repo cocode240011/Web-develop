@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## My Todo
+========
+一款可以进行前后端交互的 Todo 程序，具有时间线、切换主题皮肤、切换用户的功能；可以增加、修改、删除 Todo 任务并查看任务完成状态。
 
-You can use the [editor on GitHub](https://github.com/cocode240011/Web-develop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+运用 node.js、express 框架搭建后台，HTML、CSS、JavaScript 构建静态页面和用户交互，使用 AjAX 实现前后端数据交互。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 界面展示
+-----
+![image1](https://github.com/cocode240011/Web-develop/tree/master/Screenshots/681.png)
 
-### Markdown
+![image2](https://github.com/cocode240011/Web-develop/tree/master/Screenshots/799.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![image3](https://github.com/cocode240011/Web-develop/tree/master/Screenshots/835.png)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cocode240011/Web-develop/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
