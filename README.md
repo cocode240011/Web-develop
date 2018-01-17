@@ -6,7 +6,7 @@
 
 ### 界面展示
 -----
-![image1](https://github.com/cocode240011/Web-develop/tree/master/Screenshots/681.png)
+![image1](https://github.com/cocode240011/Web-develop/blob/master/Screenshots/681.png)
 
 ![image2](https://github.com/cocode240011/Web-develop/tree/master/Screenshots/799.png)
 
