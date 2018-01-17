@@ -1,13 +1,13 @@
-## My Todo
+# My Todo
 
 一款可以进行前后端交互的 Todo 程序，具有时间线、切换主题皮肤、切换用户的功能；可以增加、修改、删除 Todo 任务并查看任务完成状态。
 
 ### 运用技术
--运用 node.js、express 框架搭建后台
--HTML、CSS、JavaScript 构建静态页面和用户交互
--使用 AjAX 实现前后端数据交互
--响应式设计
--JSON 数据格式存储数据
+- 运用 node.js、express 框架搭建后台
+- HTML、CSS、JavaScript 构建静态页面和用户交互
+- 使用 AjAX 实现前后端数据交互
+- 响应式设计
+- JSON 数据格式存储数据
 
 ### 界面展示
 -----
