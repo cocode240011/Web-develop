@@ -1,0 +1,327 @@
+/*
+网页样式文件
+*/
+html {
+    width: 100%;
+    height: 100% ;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #404040;
+    font-family: "Helvetica Neue",Helvetica,"微软雅黑",Arial,sans-serif;
+}
+
+.page-container {
+    width: 100%;
+    height: 100%;
+}
+
+.side-menu {
+    float: left;
+    width: 180px;
+    height: 100%;
+    color: #a0a9ad;
+    background-color: #353d40;
+    transition: 0.6s;
+}
+
+.side-menu-task {
+    width: 90px;
+}
+
+.user-logo {
+    height: 43px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.side-menu-task .user-logo {
+    height: 86px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.user-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.user-img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.user-name {
+    width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    top: 5%;
+}
+
+.side-menu-task .user-logo .triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 5px;
+    margin-top: -4px;
+    float: right;
+    vertical-align: middle;
+    border-bottom: 10px solid;
+    border-left: 10px solid transparent;
+}
+
+hr {
+    border-color: transparent;
+    border-top: 1px solid #30373a;
+    border-bottom: 1px solid #444c4f;
+    margin: 0;
+    transition: 0.6s;
+}
+
+.main-menu-item {
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    color: #a1a9ae;
+    transition: 0.6s;
+}
+
+.item-icon {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    font-size: 17px;
+    margin: 0 2px 0 10px;
+    padding: 6px;
+    height: 30px;
+    width: 32px;
+    line-height: 22px;
+}
+
+.item-icon span {
+    font-size: 1.1em;
+}
+
+.main-menu-item:hover {
+    background-color: hsla(0, 1%, 49%, 0.28);
+    color: #ffffffc2;
+    cursor: pointer;
+}
+
+.main-task {
+    margin-left: 90px;
+    padding-bottom: 45px;
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    height: 45px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 45px;
+    padding: 0 20px 0 20px;
+}
+
+.title span {
+    color: #353d40;
+    font-size: 2rem;
+    font-family: 'Lucida Handwriting', serif;
+    font-style: italic;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.content {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.task-container {
+    padding-top: 11px;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.form {
+    position: relative;
+    padding: 0 0 11px 68px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.form #input {
+    border-radius: 3px;
+    border: 0px;
+    box-shadow: 0px 0px 6px #464444;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #d8d7d7;
+}
+
+input:-moz-placeholder {
+    color: #d8d7d7;
+}
+
+input::-moz-placeholder {
+    color: #d8d7d7;
+    }
+
+input:-ms-input-placeholder {
+    color: #d8d7d7;
+}
+
+#add-button {
+    display: inline-block;
+    color: #9e9e9e80;
+    font-size: 1.5em;
+    position: absolute;
+    top: -2px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.timeline-task {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    padding-left: 68px;
+}
+
+.timeline {
+    padding: 0 0 40px 0;
+    border-left: 2px solid #eceeef;
+    margin-left: -2px;
+}
+
+.timeline .date {
+    padding-top: 15px;
+    margin-left: -6px;
+}
+
+.light {
+    color: #999;
+}
+
+.pot {
+    width: 10px;
+    height: 10px;
+    margin-right: 19px;
+    line-height: 9px;
+    display: inline-block;
+    background-color: #e0e4e6;
+    border-radius: 50%;
+}
+
+.todo-cell {
+    margin-bottom: 15px;
+    cursor: pointer;
+    clear: both;
+    margin-left: -69px;
+}
+
+span.start-at-time.light {
+    width: 52px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.checked-box {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 6.3px;
+    background: white;
+}
+
+.task-name {
+    position: relative;
+    display: inline-block;
+    padding-left: 6px;
+    width: 77%;
+}
+
+.marked {
+    background: #f5f2f291;
+}
+
+.delete-icon {
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    color: #929191;
+    left: 40%;
+}
+
+.radio {
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    display: block;
+    width: 140%;
+    height: 108%;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    border: 0px;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.checked-box span {
+    color: red;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+
+.theme {
+    margin: 20px 37.5px 20px 37.5px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.theme:hover {
+    transform: scale3d(1.3, 1.3, 1.3);
+}
+
+#theme1 {
+    background: black;
+    border: 2px solid black;
+}
+
+#theme2 {
+    background: #e0acb5;
+    border: 2px solid #e0acb5;
+}
+
+#theme3 {
+    background: #0ca5ea;
+    border: 2px solid #0ca5ea;
+}
+
+#theme-menu-up:hover {
+    color: white;
+}

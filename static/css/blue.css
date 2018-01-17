@@ -1,0 +1,17 @@
+.main-menu-item {
+    color: white !important;
+}
+
+.title span {
+    color: #5299d2 !important;
+}
+
+.side-menu {
+    color: white !important;
+    background-color: #5299d2 !important;
+}
+
+hr {
+    border-top: 1px solid #66818a !important;
+    border-bottom: 1px solid #5fc2e2 !important;
+}

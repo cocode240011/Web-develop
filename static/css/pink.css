@@ -1,0 +1,17 @@
+.main-menu-item {
+    color: white !important;
+}
+
+.title span {
+    color: pink !important;
+}
+
+.side-menu {
+    color: white !important;
+    background-color: pink !important;
+}
+
+hr {
+    border-top: 1px solid #e2bfc6 !important;
+    border-bottom: 1px solid #f5dbe0 !important;
+}
